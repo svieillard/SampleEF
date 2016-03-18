@@ -15,9 +15,9 @@ namespace SampleEF.Data.Domain
 
     public enum State
     {
-        Unchanged,
-        Added,
-        Modified,
-        Deleted
+        Unchanged = 1,
+        Added = 2,
+        Modified = 3,
+        Deleted = 4
     }
 }
